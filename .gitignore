@@ -1,0 +1,36 @@
+# Служебные папки и файлы Visual Studio / сборок
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.userosscache
+*.sln.docstates
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.tlog
+*.lastbuildstate
+*.obj
+*.o
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.ipdb
+*.iobj
+*.db
+*.suo
+*.json
+
+# В папках лабораторных работ отслеживаем только исходный код (.cpp, .h, .hpp)
+lab*/
+!lab*/**/
+!lab*/*.cpp
+!lab*/**/*.cpp
+!lab*/*.h
+!lab*/**/*.h
+!lab*/*.hpp
+!lab*/**/*.hpp
